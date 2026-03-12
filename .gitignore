@@ -1,2 +1,6 @@
 .terraform/
 azureterraform/day_1/var.sh
+*.tfstate
+*.tfstate.backup
+var.sh
+.terraform/
