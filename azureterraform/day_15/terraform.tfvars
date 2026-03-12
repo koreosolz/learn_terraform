@@ -1,0 +1,6 @@
+resource_group_name = "my-tf-rg"
+location            = "australiaeast"
+p1                  = "peer-1"
+p2                  = "peer-2"
+admin_username      = "testadmin"
+admin_password      = "Password1234!"
