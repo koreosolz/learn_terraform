@@ -1,0 +1,28 @@
+# Terraform working directory
+.terraform/
+
+# State files (these contain secrets in plain text)
+*.tfstate
+*.tfstate.*
+
+# Variable files (admin password lives here)
+*.tfvars
+*.tfvars.json
+
+# Plans and logs
+*.tfplan
+crash.log
+crash.*.log
+
+# Local overrides and CLI config
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Other secrets
+.env
+*.pem
+*.key
