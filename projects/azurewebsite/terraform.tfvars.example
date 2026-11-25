@@ -1,0 +1,4 @@
+resource_group_name = "rg-weblab"
+location            = "australiaeast"
+admin_username      = "azureuser"
+admin_password      = "<set your own strong password>"
